@@ -1,0 +1,20 @@
+import java.util.*;
+class q44
+{
+    public static int factorial(int x)
+    {
+        int i,f=1;
+        for(i=1;i<=x;i++)
+        {
+            f=f*i;
+        }
+        return f;
+    }
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number:");
+        int fact=factorial(n);
+        System.out.println("FACTORIAL="+fact);
+    }
+}
